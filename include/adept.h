@@ -405,7 +405,7 @@ namespace adept {
     ~Stack();
 
     // This function is no longer available
-    void start(Offset n = ADEPT_INITIAL_STACK_LENGTH) {
+    void start(Offset /* n = ADEPT_INITIAL_STACK_LENGTH */) {
       throw (feature_not_available("The Stack::start() function has been removed since Adept version 1.0: see the documentation about how to use Stack::new_recording()"));
     }
 
